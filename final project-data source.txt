@@ -1,35 +1,26 @@
-﻿Russia stock index: IMOEX.ME
+﻿These are the sources of data:
+Russia stock index: IMOEX.ME from Yahoo Finance
+https://finance.yahoo.com/quote/IMOEX.ME/
 
 
 Finance Sector: 
 1. Rossiyskiy Aktsionernyi Kommercheskiy Dorozhnyi Bank PAO (RDRB): https://www.investing.com/equities/rosdorbank-pao-historical-data
-2. Bank Uralsib OAO (USBN) :https://www.investing.com/equities/bank-uralsib-historical-data
+2. Bank Uralsib OAO (USBN):https://www.investing.com/equities/bank-uralsib-historical-data
 3. AKB Avangard OAO (AVAN) https://www.investing.com/equities/akb-avangard-oao-historical-data
 
 
 Russia energy corporation:
-1. Gazprom (OGZPY) 
-2. Rosneft (OJSCY) 
-3. Lukoil (LUKOY) 
-
-
-Communication Company
-1. Mobile TeleSystems Public Joint Stock Company (MTSS.ME)
-2. beeline.ru. Owned by PJSC VimpelCom
-3. 
-
-
+1. Gazprom (OGZPY) https://www.investing.com/equities/gazprom_rts
+2. Rosneft (OJSCY)  https://www.investing.com/equities/rosneft_rts
+3. Lukoil (LUKOY)  https://www.investing.com/equities/lukoil_rts
 Russian Government Bond Zero Coupon Yield Curve, Values (% per annum): https://www.cbr.ru/eng/hd_base/zcyc_params/?UniDbQuery.Posted=True&UniDbQuery.From=01.01.2022&UniDbQuery.To=05.08.2022
 
 
+After we get the data from Yahoo and Investing website for the specified date of 1/3/2022 to 8/4/2022
 
 
-After we decided on the company, we get the price of data from Yahoo and Investing and specified the date of 1/3/2022 to 8/4/2022
-
-
-We collect all the closed prices for each stock and put them into one single CSV file.
-
-
-
-
-https://www.investing.com/equities/rosdorbank-pao-historical-data
+We collect all the closed prices for each stock and put them into one CSV file.
+Steps to clean and organize data:
+1. Align the date for each stock
+Since there is a period of time that the stock price is missing 
+2. We fill the data using the price after the stop
